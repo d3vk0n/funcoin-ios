@@ -2,12 +2,12 @@
 
 [![Travis](https://travis-ci.com/cryptape/funcWallet-ios.svg?branch=develop)](https://travis-ci.com/cryptape/funcWallet-ios)
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
-[![CITA](https://img.shields.io/badge/made%20for-CITA-blue.svg)](https://www.citahub.com)
+[![FUNCOIN](https://img.shields.io/badge/made%20for-CITA-blue.svg)](https://www.citahub.com)
 
 Overview
 ===============
 
-funcWallet is an open source blockchain wallet which supports [Ethereum](https://www.ethereum.org/) and [CITA](https://github.com/cryptape/cita). It supports most tokens of Ethereum and CITA, such as ETH, ERC20, ERC721, and also supports most kinds of DApps of Ethereum and CITA , such as cryptokitties, Fomo3D, 0xproject...
+funcWallet is an open source blockchain wallet which supports [Ethereum](https://www.ethereum.org/) and [FUNCOIN](https://github.com/cryptape/cita). It supports most tokens of Ethereum and CITA, such as ETH, ERC20, ERC721, and also supports most kinds of DApps of Ethereum and FUNCOIN , such as cryptokitties, Fomo3D, 0xproject...
 
 Getting Started
 ===============
