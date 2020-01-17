@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode10.2
+xcode_workspace: funcWallet.xcworkspace
+xcode_scheme: funcWallet
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
+before_install:
+  - gem install cocoapods -N
+  - pod --version
+  - travis_wait pod repo update --silent
