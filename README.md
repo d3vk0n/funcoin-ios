@@ -1,9 +1,5 @@
 # FUNCOIN Wallet (iOS)
 
-[![Travis](https://travis-ci.com/cryptape/funcWallet-ios.svg?branch=develop)](https://travis-ci.com/cryptape/funcWallet-ios)
-[![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
-[![FUNCOIN](https://img.shields.io/badge/made%20for-CITA-blue.svg)](https://www.citahub.com)
-
 Overview
 ===============
 
