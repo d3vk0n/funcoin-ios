@@ -1183,7 +1183,6 @@
 				947DD1799E07193B3B1D826B /* Pods-funcWalletUITests.debug.xcconfig */,
 				1BB55E581C082637C10D3CC8 /* Pods-funcWalletUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -1879,6 +1878,7 @@
 				CLANG_ENABLE_CODE_COVERAGE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6FL4825HQM;
 				ENABLE_BITCODE = YES;
@@ -1913,6 +1913,7 @@
 				CLANG_ENABLE_CODE_COVERAGE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6FL4825HQM;
 				ENABLE_BITCODE = YES;
