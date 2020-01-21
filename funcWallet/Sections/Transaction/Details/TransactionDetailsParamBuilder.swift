@@ -82,7 +82,7 @@ class TransactionDetailsParamBuilder {
     func buildTxFee() {
         if tx.status == .success || tx.status == .pending {
             if let etherTx = tx as? EthereumTransactionDetails {
-                txFee = (etherTx.gasUsed * etherTx.gasPrice).toAmountText() + " ETH"
+                txFee = (etherTx.gasUsed * etherTx.gasPrice).toAmountText() + " FUNC"
                 gasPrice = "\(etherTx.gasPrice.toGweiText()) Gwei"
             } else if let citaTx = tx as? CITATransactionDetails {
                 let quotaPrice = GasPriceFetcher().quotaPrice(rpcNode: citaTx.token.chainHost)

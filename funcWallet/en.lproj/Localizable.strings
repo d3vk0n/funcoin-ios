@@ -307,7 +307,7 @@
 
 // Settings
 // ---------------------------------------------------------
-"Settings.Title" = "Me";
+"Settings.Title" = "Settings";
 "Settings.CurrencyTitle" = "Local Currency";
 "Settings.TouchIdTitle" = "Touch ID";
 "Settings.Forum" = "Forum";

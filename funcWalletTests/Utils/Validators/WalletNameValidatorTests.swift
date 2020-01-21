@@ -32,7 +32,7 @@ class WalletNameValidatorTests: XCTestCase {
     func testWalletNameExistence() {
         let appModel = AppModel.current
         let walletModel = WalletModel()
-        walletModel.name = "ETH Wallet"
+        walletModel.name = "FUNC Wallet"
         walletModel.address = "0x6782CdeF6A4A056d412775EE6081d32B2bf90287"
         let existence = appModel.wallets.contains(where: {$0.address == walletModel.address})
         let realm = try! Realm()
@@ -42,7 +42,7 @@ class WalletNameValidatorTests: XCTestCase {
             }
             realm.add(appModel)
         }
-        guard case .invalid(_) = WalletNameValidator.validate(walletName: "ETH Wallet") else {
+        guard case .invalid(_) = WalletNameValidator.validate(walletName: "FUNC Wallet") else {
             return XCTFail("Wallet name existence not checked")
         }
     }

@@ -62,11 +62,11 @@ class EthereumNetwork {
             case .mainnet:
                 return "Main FUNCOIN Network"
             case .rinkeby:
-                return "Rinkeby Test Network"
+                return "CHAIN X"
             case .ropsten:
-                return "Ropsten Test Network "
+                return "CHAIN Y "
             case .kovan:
-                return "Kovan Test Network"
+                return "CHAIN Z"
             }
         }
     }
