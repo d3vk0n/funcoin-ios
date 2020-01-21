@@ -88,11 +88,11 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Release">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      customArchiveName = "funcoinWallet"
+      customArchiveName = "io.funcoin.wallet"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
