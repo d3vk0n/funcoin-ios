@@ -58,7 +58,7 @@ class SwitchChainViewController: UIViewController {
     func getChainModelList() {
         let ethChain = Chain().defaultChain
         let testChain = Chain(chainId: citaChainId, chainName: "Assets.AddAssets.CITANativeCoin".localized(), httpProvider: "")
-        chains += [ethChain, testChain]
+        chains += [ethChain]
         let realm = try! Realm()
         let chainResult = realm.objects(ChainModel.self)
         chainResult.forEach { (model) in

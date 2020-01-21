@@ -22,7 +22,7 @@
 
 // DApp
 // ---------------------------------------------------------
-"DApp.Home" = "ÐApp";
+"DApp.Home" = "GETH";
 "DApp.Search.TextFieldPlaceholder" = "Explore the decentralized web";
 "DApp.Search.DeleteHistory" = "Delete";
 
@@ -48,7 +48,7 @@
 
 // DApp Advanced
 // ---------------------------------------------------------
-"DApp.Advanced.ETHRecommend" = "Ethereum recommended";
+"DApp.Advanced.ETHRecommend" = "FUNCOIN recommended";
 "DApp.Advanced.Gas" = "Gas Price";
 "DApp.Advanced.EmptyGasPrice" = "Please enter Gas Price";
 "DApp.Advanced.MinGasPrice" = "Gas Price too low, Please set above %@ GWei";
@@ -61,7 +61,7 @@
 
 // DApp MyDApp
 // ---------------------------------------------------------
-"DApp.MyDApp.Title" = "My ÐApp";
+"DApp.MyDApp.Title" = "GETH.NETWORK";
 
 // DApp NFT
 // ---------------------------------------------------------
@@ -120,7 +120,7 @@
 // Wallet
 // ---------------------------------------------------------
 "Wallet" = "Wallet";
-"Wallet.token" = "Token";
+"Wallet.token" = "Balance";
 "Wallet.addToken" = "Add";
 "Wallet.transaction" = "Send";
 "Wallet.receipt" = "Receive";
@@ -130,14 +130,14 @@
 
 // Wallet QRCode
 // ---------------------------------------------------------
-"Wallet.QRCode.desc" = "Please do not deposit any digital assets other than ETH and CITA to above address";
+"Wallet.QRCode.desc" = "Please do not deposit any digital assets other than FUNCOIN and FUNC chain TOKENS to above address";
 "Wallet.QRCode.copy" = "Copy";
 "Wallet.QRCode.copySuccess" = "Address is copied to clipboard";
 
 // Transaction History
 // ---------------------------------------------------------
 "Transaction.History.title" = "Transaction List";
-"TokenProfile.Ether.overview" = "Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.";
+"TokenProfile.Ether.overview" = "FUNCOIN is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.";
 "Transaction.History.testTokenWarning" = "The token has no value and is only used for developer testing.";
 "Transaction.History.details" = "Details >>";
 

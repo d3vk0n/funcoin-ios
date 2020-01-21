@@ -21,25 +21,14 @@ class AboutUsViewController: UITableViewController {
         super.viewDidLoad()
         title = "Settings.About.AboutUs".localized()
         sourceCodeLabel.text = "Settings.About.SourceCode".localized()
-        infuaDetailLabel.text = "Settings.About.InfuaDetail".localized()
-        openSeaDetailLabel.text = "Settings.About.OpenSea".localized()
-        peckShieldDetailLabel.text = "Settings.About.PeckShield".localized()
-        citaDetailLabel.text = "Settings.About.Cita".localized()
         setVersionLabel()
     }
 
     private var projectGithubUrls = [
-        "https://github.com/cryptape/funcWallet-ios",
-        "https://docs.nervos.org/funcWallet-android/#/product-agreement"
+        "https://github.com/dev-kononov/funcoin-ios",
+
     ]
 
-    private var secondSectionUrls = [
-        "https://www.nervos.org/",
-        "https://infura.io/",
-        "https://opensea.io/",
-        "https://peckshield.com/",
-        "https://github.com/cryptape/cita"
-    ]
 
     private func setVersionLabel() {
         let majorVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
@@ -51,9 +40,7 @@ class AboutUsViewController: UITableViewController {
         var urlString: String?
         if indexPath.section == 1 {
             urlString = projectGithubUrls[indexPath.row]
-        } else if indexPath.section == 2 {
-            urlString = secondSectionUrls[indexPath.row]
-        }
+        } 
         if let urlString = urlString {
             let safariController = SFSafariViewController(url: URL(string: urlString)!)
             self.present(safariController, animated: true, completion: nil)

@@ -29,8 +29,8 @@ class DefaultTokenAndChain {
         ethModel.decimals = NativeDecimals.nativeTokenDecimals
         ethModel.iconUrl = ""
         ethModel.isNativeToken = true
-        ethModel.name = "ethereum"
-        ethModel.symbol = "ETH"
+        ethModel.name = "funcoin"
+        ethModel.symbol = "FUNC"
         if let id = TokenModel.identifier(for: ethModel) {
             ethModel.identifier = id
         }

@@ -15,7 +15,7 @@ final class LocalCurrencyService {
     private init() {
         let selected = UserDefaults.standard.string(forKey: localCurrencyKey)
         if selected == nil {
-            UserDefaults.standard.set("CNY", forKey: localCurrencyKey)
+            UserDefaults.standard.set("USD", forKey: localCurrencyKey)
         }
     }
 

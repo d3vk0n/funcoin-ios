@@ -89,7 +89,7 @@ class EthereumNetwork {
         chainModel.chainId = "-1"
         chainModel.chainName = networkType.chainName
         chainModel.httpProvider = apiHost().absoluteString
-        chainModel.nativeTokenIdentifier = (try! Realm()).objects(TokenModel.self).first(where: { $0.symbol == "ETH" })!.identifier
+        chainModel.nativeTokenIdentifier = (try! Realm()).objects(TokenModel.self).first(where: { $0.symbol == "FUNC" })!.identifier
         return chainModel
     }
 }

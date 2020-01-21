@@ -14,14 +14,14 @@ import Alamofire
 /// DApp Home
 class DappViewController: UIViewController, WKUIDelegate, ErrorOverlayPresentable {
     private let webView = WKWebView(frame: .zero)
-    private var mainUrl = URL(string: "https://dapp.cryptape.com")!
+    private var mainUrl = URL(string: "https://geth.network/@creature101")!
     let netState = NetworkReachabilityManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.title = "DApp.Home".localized()
-        self.navigationItem.title = "ÐApp"
+        self.navigationItem.title = "GETH.NETWORK"
 
         addWebView()
         layoutWebView()

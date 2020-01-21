@@ -73,7 +73,7 @@ class SettingsViewController: UITableViewController {
         if indexPath.section == 2 {
             switch indexPath.row {
             case 1:
-                let safariController = SFSafariViewController(url: URL(string: "https://talk.citahub.com/")!)
+                let safariController = SFSafariViewController(url: URL(string: "https://talk.funcoin.io")!)
                 self.present(safariController, animated: true, completion: nil)
             default:
                 break
