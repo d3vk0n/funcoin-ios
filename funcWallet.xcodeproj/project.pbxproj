@@ -254,7 +254,6 @@
 		1A5515E421898A1000D34791 /* WalletKeystoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletKeystoreManager.swift; sourceTree = "<group>"; };
 		1A5515E6218D36B600D34791 /* WalletManager+Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalletManager+Errors.swift"; sourceTree = "<group>"; };
 		1A5515EB218D3F0300D34791 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		1A5515ED218D3F4500D34791 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1A60079621A274D000C7B712 /* SendTransactionSummaryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendTransactionSummaryView.xib; sourceTree = "<group>"; };
 		1A60079B21A28B8C00C7B712 /* TxSummaryPageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxSummaryPageItem.swift; sourceTree = "<group>"; };
 		1A60079D21A28C1400C7B712 /* PasswordPageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPageItem.swift; sourceTree = "<group>"; };
@@ -352,17 +351,10 @@
 		6EB4E84021D62B3900B93FAB /* EthereumLocalTxPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumLocalTxPool.swift; sourceTree = "<group>"; };
 		6EDBE3A021DE02EA0087DA38 /* CITALocalTxPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CITALocalTxPool.swift; sourceTree = "<group>"; };
 		6EE37EA021C782FE00F62F2C /* WalletIconPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletIconPickerViewController.swift; sourceTree = "<group>"; };
-		6EEDED4F21CB3B3B00FC3BCE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/guide_page_1@3x.png"; sourceTree = "<group>"; };
-		6EEDED5021CB3B3B00FC3BCE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/guide_page_1@2x.png"; sourceTree = "<group>"; };
 		6EEDED6621CB3C8200FC3BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/guide_page_2@2x.png"; sourceTree = "<group>"; };
-		6EEDED6721CB3C8200FC3BCE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/guide_page_2@2x.png"; sourceTree = "<group>"; };
 		6EEDED7921CB3D1700FC3BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/guide_page_2@3x.png"; sourceTree = "<group>"; };
-		6EEDED7A21CB3D1700FC3BCE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/guide_page_2@3x.png"; sourceTree = "<group>"; };
-		6EEDED9621CB3DD700FC3BCE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/guide_page_3@3x.png"; sourceTree = "<group>"; };
 		6EEDED9721CB3DD700FC3BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/guide_page_3@3x.png"; sourceTree = "<group>"; };
-		6EEDED9F21CB3DFB00FC3BCE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/guide_page_3@2x.png"; sourceTree = "<group>"; };
 		6EEDEDA021CB3DFB00FC3BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/guide_page_3@2x.png"; sourceTree = "<group>"; };
-		6EEDEDA321CB3F3500FC3BCE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text; name = "zh-Hans"; path = "zh-Hans.lproj/product_agreement.txt"; sourceTree = "<group>"; };
 		6EEDEDA621CB4CF100FC3BCE /* EthereumTokenProfileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumTokenProfileLoader.swift; sourceTree = "<group>"; };
 		6EF8F40B2175CAD9004B7587 /* UIControl+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extension.swift"; sourceTree = "<group>"; };
 		6EF8F40F2176029E004B7587 /* OpenAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAuthViewController.swift; sourceTree = "<group>"; };
@@ -1289,7 +1281,6 @@
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
 			);
 			mainGroup = 896D042020AE69C1002CFF6A;
 			productRefGroup = 896D042A20AE69C1002CFF6A /* Products */;
@@ -1666,7 +1657,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				1A5515EB218D3F0300D34791 /* en */,
-				1A5515ED218D3F4500D34791 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1675,7 +1665,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E86071621CB39C80055387C /* en */,
-				6EEDED4F21CB3B3B00FC3BCE /* zh-Hans */,
 			);
 			name = "guide_page_1@3x.png";
 			sourceTree = "<group>";
@@ -1684,7 +1673,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E86072221CB39F80055387C /* en */,
-				6EEDED5021CB3B3B00FC3BCE /* zh-Hans */,
 			);
 			name = "guide_page_1@2x.png";
 			sourceTree = "<group>";
@@ -1693,7 +1681,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6EEDED6621CB3C8200FC3BCE /* en */,
-				6EEDED6721CB3C8200FC3BCE /* zh-Hans */,
 			);
 			name = "guide_page_2@2x.png";
 			sourceTree = "<group>";
@@ -1702,7 +1689,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6EEDED7921CB3D1700FC3BCE /* en */,
-				6EEDED7A21CB3D1700FC3BCE /* zh-Hans */,
 			);
 			name = "guide_page_2@3x.png";
 			sourceTree = "<group>";
@@ -1710,7 +1696,6 @@
 		6EEDED9521CB3DD700FC3BCE /* guide_page_3@3x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EEDED9621CB3DD700FC3BCE /* zh-Hans */,
 				6EEDED9721CB3DD700FC3BCE /* en */,
 			);
 			name = "guide_page_3@3x.png";
@@ -1719,7 +1704,6 @@
 		6EEDED9E21CB3DFB00FC3BCE /* guide_page_3@2x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EEDED9F21CB3DFB00FC3BCE /* zh-Hans */,
 				6EEDEDA021CB3DFB00FC3BCE /* en */,
 			);
 			name = "guide_page_3@2x.png";
@@ -1728,7 +1712,6 @@
 		6EEDEDA421CB3F3500FC3BCE /* product_agreement.txt */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EEDEDA321CB3F3500FC3BCE /* zh-Hans */,
 				89450B7721D37FD500CE1921 /* en */,
 			);
 			name = product_agreement.txt;
