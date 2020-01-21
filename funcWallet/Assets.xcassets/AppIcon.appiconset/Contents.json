@@ -39,13 +39,13 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "120x120-1.jpg",
+      "filename" : "120x120.jpg",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "180线80.jpg",
+      "filename" : "180x180.jpg",
       "scale" : "3x"
     },
     {
@@ -96,7 +96,7 @@
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "1024线024.jpg",
+      "filename" : "1024x1024.jpg",
       "scale" : "1x"
     }
   ],
