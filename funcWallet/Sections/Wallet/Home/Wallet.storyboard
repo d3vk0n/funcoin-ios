@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="se2-Kc-J4x">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="se2-Kc-J4x">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="7dH-r2-K0B">
-                            <rect key="frame" x="0.0" y="98" width="375" height="1"/>
+                            <rect key="frame" x="0.0" y="126" width="375" height="1"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </view>
@@ -29,11 +27,11 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vsx-BU-L6h" id="ZeO-8a-PAt">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f9f-ld-hb7">
-                                            <rect key="frame" x="15" y="16.5" width="38" height="38"/>
+                                            <rect key="frame" x="15" y="17" width="38" height="38"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="38" id="3vE-LS-6yF"/>
                                                 <constraint firstAttribute="height" constant="38" id="bBl-gk-IT6"/>
@@ -54,7 +52,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLV-f4-1I4">
-                                            <rect key="frame" x="240" y="0.0" width="120" height="69.5"/>
+                                            <rect key="frame" x="240" y="0.0" width="120" height="70"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="120" id="3iu-nm-FGm"/>
                                             </constraints>
@@ -106,7 +104,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="95" estimatedRowHeight="92" sectionHeaderHeight="46" estimatedSectionHeaderHeight="46" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="H6S-k1-sPQ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="pml-n8-5Or">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="176"/>
@@ -115,7 +113,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W88-bD-doL">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总资产(人民币)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Foi-vr-WZl">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Assets (USD)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Foi-vr-WZl">
                                                     <rect key="frame" x="20" y="29" width="335" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="17" id="6am-Nu-phE"/>
@@ -143,7 +141,7 @@
                                                                 <constraint firstAttribute="height" constant="40" id="Lwx-CT-c7H"/>
                                                             </constraints>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <state key="normal" title="收款" image="icon_wallet_qrcode">
+                                                            <state key="normal" title="Recevie" image="icon_wallet_qrcode">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
@@ -199,7 +197,7 @@
                                                                 <constraint firstAttribute="height" constant="40" id="zw6-EZ-Ixi"/>
                                                             </constraints>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <state key="normal" title="转账" image="icon_wallet_trans">
+                                                            <state key="normal" title="Send" image="icon_wallet_trans">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
@@ -741,7 +739,7 @@
                                 <action selector="refresh" destination="FK5-Ys-aof" eventType="touchUpInside" id="k5u-6B-yU9"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代币" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDt-Rp-fHX">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDt-Rp-fHX">
                             <rect key="frame" x="20" y="10.5" width="35" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="35" id="Hre-xg-ppA"/>
@@ -760,7 +758,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <inset key="titleEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
                             <inset key="imageEdgeInsets" minX="58" minY="0.0" maxX="0.0" maxY="0.0"/>
-                            <state key="normal" title="添加资产" image="wallet_switch_arrow">
+                            <state key="normal" title="Add" image="wallet_switch_arrow">
                                 <color key="titleColor" red="0.40784313725490196" green="0.42352941176470588" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <connections>
@@ -827,7 +825,7 @@
             <objects>
                 <navigationController id="se2-Kc-J4x" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CoV-Yu-NPY">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -838,16 +836,16 @@
             </objects>
             <point key="canvasLocation" x="473" y="265"/>
         </scene>
-        <!--收款-->
+        <!--Address-->
         <scene sceneID="SFn-o6-Kln">
             <objects>
-                <viewController storyboardIdentifier="WalletQRCodeViewController" title="收款" id="xNb-kk-FtN" customClass="WalletQRCodeViewController" customModule="funcWallet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WalletQRCodeViewController" title="Address" id="xNb-kk-FtN" customClass="WalletQRCodeViewController" customModule="funcWallet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Ox-Cr-A8g">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pkq-1Q-CnU">
-                                <rect key="frame" x="15" y="40" width="345" height="480"/>
+                                <rect key="frame" x="15" y="20" width="345" height="480"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zDQ-Iw-I8R">
                                         <rect key="frame" x="147.5" y="30" width="50" height="50"/>
@@ -856,7 +854,7 @@
                                             <constraint firstAttribute="height" constant="50" id="jmU-Rb-IAf"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="钱包名称" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0d-NE-ylO">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallet name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0d-NE-ylO">
                                         <rect key="frame" x="15" y="84" width="315" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="CLw-K9-QYR"/>
@@ -912,7 +910,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="此地址只接收CITA、以太坊Token，发送其他币种到此地址将不可找回" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tio-rL-kSe">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FUNCOIN、FUNCOIN - token" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tio-rL-kSe">
                                         <rect key="frame" x="22" y="424" width="301" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="dr9-B3-ETD"/>
@@ -984,12 +982,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_refresh" width="36" height="32"/>
+        <image name="icon_refresh" width="18" height="16"/>
         <image name="icon_share" width="27" height="28"/>
-        <image name="icon_wallet_add" width="44" height="44"/>
-        <image name="icon_wallet_qrcode" width="38" height="38"/>
-        <image name="icon_wallet_switch" width="40" height="40"/>
-        <image name="icon_wallet_trans" width="44" height="44"/>
+        <image name="icon_wallet_add" width="22" height="22"/>
+        <image name="icon_wallet_qrcode" width="19" height="19"/>
+        <image name="icon_wallet_switch" width="20" height="20"/>
+        <image name="icon_wallet_trans" width="22" height="22"/>
         <image name="wallet_switch_arrow" width="7" height="12"/>
         <namedColor name="headline_color">
             <color red="0.18000000715255737" green="0.19200000166893005" blue="0.24300000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

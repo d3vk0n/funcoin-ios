@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dQ0-5m-U0C">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dQ0-5m-U0C">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,20 +41,20 @@
         <scene sceneID="LwR-br-IZa">
             <objects>
                 <viewControllerPlaceholder storyboardName="Settings" id="Ycr-tU-11D" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我" image="Main_off" selectedImage="Main_on" id="Cn2-zO-P7f"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Main_off" selectedImage="Main_on" id="Cn2-zO-P7f"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xGO-bN-eUe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="734" y="-402"/>
         </scene>
-        <!--钱包-->
+        <!--Wallet-->
         <scene sceneID="G00-Tb-dXa">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hM1-o9-xvf" customClass="BaseNavigationController" customModule="funcWallet" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="钱包" image="wallet_off" selectedImage="wallet_on" id="7Nq-Hx-Y4Z"/>
+                    <tabBarItem key="tabBarItem" title="Wallet" image="wallet_off" selectedImage="wallet_on" id="7Nq-Hx-Y4Z"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pe2-LD-ePg">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -68,12 +66,12 @@
             </objects>
             <point key="canvasLocation" x="81" y="-76"/>
         </scene>
-        <!--应用-->
+        <!--Search-->
         <scene sceneID="YEu-uN-pfd">
             <objects>
                 <viewController id="p8c-h3-jt8" customClass="DappViewController" customModule="funcWallet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LVm-H3-4FI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="574"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <accessibility key="accessibilityConfiguration">
@@ -81,7 +79,7 @@
                         </accessibility>
                         <viewLayoutGuide key="safeArea" id="lbZ-aR-khA"/>
                     </view>
-                    <navigationItem key="navigationItem" title="应用" id="VbH-aR-7SH">
+                    <navigationItem key="navigationItem" title="Search" id="VbH-aR-7SH">
                         <barButtonItem key="rightBarButtonItem" image="search_dapp" id="DVd-sy-6YQ">
                             <color key="tintColor" red="0.40784313729999999" green="0.42352941179999998" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
@@ -102,14 +100,14 @@
             </objects>
             <point key="canvasLocation" x="-698" y="1205"/>
         </scene>
-        <!--应用-->
+        <!--GETH.NETWORK-->
         <scene sceneID="Xcy-xf-LxQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hlq-GV-TAq" customClass="BaseNavigationController" customModule="funcWallet" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="应用" image="dapp_off" selectedImage="dapp_on" id="cjZ-KD-Gcm"/>
+                    <tabBarItem key="tabBarItem" title="GETH.NETWORK" image="dapp_off" selectedImage="dapp_on" id="cjZ-KD-Gcm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Uw2-ti-l79">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

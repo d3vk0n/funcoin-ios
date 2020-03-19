@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -68,7 +66,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="5zE-3k-gVK"/>
                                 </constraints>
-                                <state key="normal" title="创建钱包">
+                                <state key="normal" title="Create Wallet">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -86,7 +84,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="cee-cq-EtR"/>
                                 </constraints>
-                                <state key="normal" title="已有钱包">
+                                <state key="normal" title="Import Wallet">
                                     <color key="titleColor" red="0.086274509799999996" green="0.21176470589999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -129,10 +127,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QxX-vu-CJ7">
-                                <rect key="frame" x="52" y="120" width="271" height="407"/>
+                                <rect key="frame" x="52" y="100" width="271" height="427"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDE-DH-Lxm">
-                                        <rect key="frame" x="0.0" y="0.0" width="271" height="407"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="271" height="427"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -141,7 +139,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GwS-7Y-8AD">
-                                        <rect key="frame" x="8" y="70" width="255" height="264"/>
+                                        <rect key="frame" x="8" y="70" width="255" height="284"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <string key="text">最近更新于：2018年6月29日
 尊敬的用户：
@@ -162,7 +160,7 @@ Nervos基金会（以下简称“基金会”或“我们”）尊重并保护�
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我以仔细阅读并同意以上条款" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LU1-mt-BhB">
-                                        <rect key="frame" x="12" y="344" width="247" height="18"/>
+                                        <rect key="frame" x="12" y="364" width="247" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="enh-UG-hLq"/>
                                         </constraints>
@@ -171,14 +169,14 @@ Nervos基金会（以下简称“基金会”或“我们”）尊重并保护�
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K3H-pw-vFK">
-                                        <rect key="frame" x="15" y="366" width="241" height="1"/>
+                                        <rect key="frame" x="15" y="386" width="241" height="1"/>
                                         <color key="backgroundColor" red="0.9137254901960784" green="0.92156862745098034" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="Ecr-Ro-M7Y"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQz-WN-cpJ">
-                                        <rect key="frame" x="0.0" y="367" width="271" height="40"/>
+                                        <rect key="frame" x="0.0" y="387" width="271" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="8ke-3z-Wwu"/>
                                         </constraints>

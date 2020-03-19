@@ -21,7 +21,7 @@ class QRCodeViewController: UIViewController {
         let builder = QRCodeReaderViewControllerBuilder {
             $0.reader = QRCodeReader(metadataObjectTypes: [.qr], captureDevicePosition: .back)
             $0.showSwitchCameraButton = false
-            $0.cancelButtonTitle = "取消"
+            $0.cancelButtonTitle = "Exit"
             $0.showTorchButton = true
         }
         return QRCodeReaderViewController(builder: builder)
@@ -30,8 +30,8 @@ class QRCodeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if !QRCodeReader.isAvailable() {
-            let alert = UIAlertController(title: "提示", message: "该设备不支持摄像头", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "确定", style: .destructive, handler: { (_) in
+            let alert = UIAlertController(title: "Hint", message: "Camera does not work", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Discover", style: .destructive, handler: { (_) in
                 self.navigationController?.popViewController(animated: true)
             }))
             present(alert, animated: true, completion: nil)
@@ -40,7 +40,7 @@ class QRCodeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "扫描二维码"
+        title = "Show QR"
         readerVC.delegate = self
         view.addSubview(readerVC.view)
         addChild(readerVC)
